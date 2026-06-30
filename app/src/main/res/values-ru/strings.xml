@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Pixel IMS</string>
+
+    <!-- Выбор SIM карт -->
+    <string name="sim_slot">SIM-карта %1$d</string>
+
+    <!-- Блок статуса -->
+    <string name="status_card_title">Статус</string>
+    <string name="status_card_desc">Что в данный момент применяется в системе для этой SIM-карты</string>
+    <string name="status_ims_label">Регистрация IMS</string>
+    <string name="status_on">Вкл</string>
+    <string name="status_off">Выкл</string>
+    <string name="feat_volte_short">VoLTE</string>
+    <string name="feat_vonr_short">VoNR</string>
+    <string name="feat_vowifi_short">VoWiFi</string>
+    <string name="feat_wfc_roaming_short">Вызовы через Wi-Fi в роуминге</string>
+    <string name="feat_ss_ut_short">Дополнительные услуги (UT)</string>
+
+    <!-- Блок настроек IMS -->
+    <string name="ims_settings_title">Настройки IMS</string>
+    <string name="toggle_volte_title">Звонки VoLTE</string>
+    <string name="toggle_volte_desc">Разрешить голосовые вызовы через сеть 4G/LTE</string>
+    <string name="toggle_vonr_title">Звонки через 5G (VoNR)</string>
+    <string name="toggle_vonr_desc">Включить Voice over New Radio в автономных сетях 5G</string>
+    <string name="toggle_vowifi_title">Вызовы через Wi-Fi (VoWiFi)</string>
+    <string name="toggle_vowifi_desc">Разрешить вызовы через Wi-Fi при слабом сигнале сети</string>
+    <string name="toggle_wfc_roaming_title">Вызовы через Wi-Fi в роуминге</string>
+    <string name="toggle_wfc_roaming_desc">Не отключать звонки по Wi-Fi в роуминге</string>
+    <string name="toggle_ss_ut_title">Дополнительные услуги (UT)</string>
+    <string name="toggle_ss_ut_desc">Переадресация, ожидание вызова и другие настройки оператора</string>
+
+    <!-- Настройка / подключение (показывается до сопряжения) -->
+    <string name="setup_title">Настройка отладки по Wi-Fi</string>
+    <string name="setup_intro">Управление IMS станет доступно после сопряжения телефона через отладку по Wi-Fi.</string>
+    <string name="setup_pairing_hint">После включения откройте шторку уведомлений и введите 6-значный код из диалогового окна сопряжения.</string>
+	<string name="step1_title">Шаг 1. Подключитесь к Wi-Fi (обязательно)</string>
+    <string name="step1_desc">Для отладки по Wi-Fi требуется подключение телефона к сети Wi-Fi</string>
+    <string name="step2_title">Шаг 2. Включите службу и выполните сопряжение</string>
+	<string name="step2_state_unpaired">Служба включена (требуется сопряжение)</string>
+    <string name="step2_state_off">Включите отладку по Wi-Fi в системных настройках</string>
+    <string name="status_connected">Подключено</string>
+    <string name="status_disconnected">Отключено</string>
+    <string name="badge_unpaired">Не сопряжено</string>
+    <string name="badge_not_connected">Нет подключения</string>
+    <string name="enable_wireless_debugging">Открыть отладку по Wi-Fi</string>
+
+    <!-- Действия активации -->
+    <string name="apply_on_boot_title">Применить при загрузке</string>
+    <string name="apply_on_boot_desc">Автоматически применять эти настройки для данной SIM-карты после перезагрузки</string>
+    <string name="apply_desc">Записать вышеуказанные настройки для SIM-карты %1$d или восстановить стандартные параметры оператора.</string>
+	<string name="action_apply">Применить</string>
+    <string name="action_restore">Восстановить</string>
+
+    <!-- Уведомления -->
+	<string name="msg_enable_wireless_first">Сначала включите отладку по Wi-Fi</string>
+    <string name="msg_apply_failed">Не удалось применить: %1$s</string>
+    <string name="msg_restore_failed">Не удалось восстановить: %1$s</string>
+    <string name="msg_pairing_no_port">Порт сопряжения не обнаружен. Убедитесь, что системное окно сопряжения открыто.</string>
+    <string name="msg_pairing_in_progress">Выполняется сопряжение устройства в фоновом режиме…</string>
+    <string name="msg_pairing_success">Сопряжение успешно выполнено!</string>
+    <string name="msg_pairing_failed">Ошибка сопряжения: %1$s</string>
+    <string name="msg_notification_permission_needed">Требуется разрешение на отправку уведомлений, чтобы ввести код сопряжения из шторки</string>
+    <string name="msg_developer_options_not_found">Параметры разработчика не найдены</string>
+
+    <!-- Уведомления о сопряжении -->
+    <string name="notif_channel_pairing_name">Сопряжение по Wi-Fi</string>
+    <string name="notif_channel_pairing_desc">Быстрый ввод кода сопряжения отладки по Wi-Fi из шторки уведомлений</string>
+    <string name="notif_pairing_title">Сопряжение через отладку по Wi-Fi</string>
+    <string name="notif_pairing_text">Нажмите кнопку «Ввести код сопряжения» ниже и введите 6-значный код</string>
+    <string name="notif_pairing_reply_label">Введите 6-значный код сопряжения</string>
+	<string name="notif_pairing_action">Ввести код сопряжения</string>
+    <string name="notif_pairing_status">Сопряжение через порт %1$d…</string>
+    <string name="notif_pairing_status_failed">Ошибка сопряжения: %1$s</string>
+    <string name="notif_pairing_status_no_port">Ошибка сопряжения: системный порт сопряжения не обнаружен</string>
+</resources>
