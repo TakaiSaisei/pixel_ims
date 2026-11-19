@@ -79,6 +79,12 @@ enum class Feature(
             BoolOverride("always_show_data_rat_icon_bool"),
         )
     ),
+    COSMETIC_LTE_PLUS_ICON(
+        "cosmetic_lte_plus_icon", default = false, userFacing = true,
+        category = FeatureCategory.COSMETIC, overrides = listOf(
+            BoolOverride("hide_lte_plus_data_icon_bool", inverted = true),
+        )
+    ),
     COSMETIC_4G_FOR_LTE(
         "cosmetic_4g_for_lte", default = false, userFacing = true,
         category = FeatureCategory.COSMETIC, exclusiveGroup = "lte_label", overrides = listOf(

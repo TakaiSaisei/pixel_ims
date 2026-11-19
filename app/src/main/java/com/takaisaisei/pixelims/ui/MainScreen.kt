@@ -87,6 +87,10 @@ private val TOGGLE_TEXT: Map<Feature, ToggleText> = mapOf(
         R.string.toggle_cosmetic_data_rat_icon_title,
         R.string.toggle_cosmetic_data_rat_icon_desc,
     ),
+    Feature.COSMETIC_LTE_PLUS_ICON to ToggleText(
+        R.string.toggle_cosmetic_lte_plus_icon_title,
+        R.string.toggle_cosmetic_lte_plus_icon_desc,
+    ),
     Feature.COSMETIC_4G_FOR_LTE to ToggleText(
         R.string.toggle_cosmetic_4g_for_lte_title,
         R.string.toggle_cosmetic_4g_for_lte_desc,
