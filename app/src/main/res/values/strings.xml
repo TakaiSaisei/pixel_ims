@@ -33,6 +33,8 @@
     <string name="cosmetic_section_title">Cosmetic</string>
     <string name="toggle_cosmetic_data_rat_icon_title">Always show network type icon</string>
     <string name="toggle_cosmetic_data_rat_icon_desc">Keep the data network type icon (e.g. LTE, 5G) visible in the status bar</string>
+    <string name="toggle_cosmetic_lte_plus_icon_title">Show LTE+/4G+ indicator</string>
+    <string name="toggle_cosmetic_lte_plus_icon_desc">Show the enhanced data icon in the status bar when carrier aggregation is active</string>
     <string name="toggle_cosmetic_4g_for_lte_title">Show \"4G\" instead of \"LTE\"</string>
     <string name="toggle_cosmetic_4g_for_lte_desc">Label the LTE data icon as 4G in the status bar</string>
     <string name="toggle_cosmetic_4glte_for_lte_title">Show \"4G LTE\" instead of \"LTE\"</string>
